@@ -1,0 +1,28 @@
+/* .product{
+  color: white;
+} */
+/* .product .card{
+  background-color: red;
+} */
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.location {
+  margin-top: 1px;
+  font-size: 10px;
+}
+.post-img {
+  border-radius: 14px;
+  object-fit: cover;
+  transition: all ease-in-out .4s;
+}
+
+ .post-img:hover{
+  transform: scale(1.25)  ;
+}
+.product:hover .card{
+  box-shadow: 10px 10px 5px red;
+}

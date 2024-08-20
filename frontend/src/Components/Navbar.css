@@ -1,0 +1,43 @@
+.navbar {
+  height: 75px !important;
+}
+
+.searchBox {
+  width: 30vw;
+  padding: 10px;
+  box-shadow: none !important;
+}
+
+.searchIcon {
+  display: none;
+  /* color: white; */
+}
+
+.navbar-profile-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -5px;
+}
+
+.dropdown-menu {
+  left: -25px !important;
+  min-width:max-content;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchBox {
+    display: none;
+  }
+  .navbar-brand {
+    margin-left: 5px !important;
+  }
+  .searchIcon {
+    display: block;
+    margin-top: 6px;
+  }
+  .dropdown-menu {
+  left: -55px !important;
+}
+}
